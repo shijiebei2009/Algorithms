@@ -1,6 +1,6 @@
 Algorithms [![Build Status](https://api.travis-ci.org/shijiebei2009/Algorithms.svg?branch=master)](https://travis-ci.org/shijiebei2009/Algorithms)
 ==========
-Algorithms playground for common questions solved in ruby syntax.
+Algorithms playground for common questions solved in Java syntax.
 
 This repository contains my solution for some common algorithms. I've created this repository to learn about algorithms and improve solving different common computer science problems. I'll try to add more solutions if I have time :)
 
