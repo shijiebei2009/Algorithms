@@ -13,54 +13,48 @@ Problems
 
 ### Trees
 
-*
-*
-
-### Linked List
-
-*
-*
+* 1
+* 2
 
 ### Strings
 
-*
-*
+* 1
+* 2
 
 ### Binary Numbers and bits operators
 
-*
-*
+* 1
+* 2
 ### Math Operations
 
-*
-*
+* 1
+* 2
 
 ### Sequences
 
-* [Fibonacci numbers] (https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem7/FibonacciNumbers.java)
-* [Factorial] (https://github.com/pedrovgs/Algorithms/blob/master/src/main/java/com/github/pedrovgs/problem9/Factorial.java)
-
+* 1
+* 2
 ### Arrays
 
-*
-*
+* 1
+* 2
 
 ### Sorting Algorithms
 
-*
-*
+* 1
+* 2
 
 
 Developed By
 ------------
 
-* [Xu Wang](http://codepub.cn) - <wangx89@126.com>
+* [Xu Wang](http://codepub.cn) -- <wangx89@126.com>
 
 
 License
 -------
 
-Copyright 2014 Xu Wang
+Copyright 2015 Xu Wang
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
