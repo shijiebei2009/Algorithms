@@ -1,4 +1,4 @@
-Algorithms [![Build Status](https://travis-ci.org/pedrovgs/Algorithms.svg?branch=master)](https://travis-ci.org/pedrovgs/Algorithms)
+Algorithms [![Build Status](https://api.travis-ci.org/shijiebei2009/Algorithms.svg?branch=master)](https://travis-ci.org/shijiebei2009/Algorithms)
 ==========
 Algorithms playground for common questions solved in ruby syntax.
 
