@@ -38,7 +38,7 @@ public class GetPathsBySum {
         l1.left = l2;
         l1.right = r2;
         int num = 22;//给定的整数
-        dfs(root, new ArrayList<>());
+        dfs(root, new ArrayList<Tree>());
         //这样就获取到了所有路径的集合
         for (List<Tree> list : pathsList) {
             int temp = 0;
