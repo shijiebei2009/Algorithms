@@ -18,7 +18,7 @@
         <!-- 级别顺序（低到高）：DEBUG < INFO < WARN < ERROR < FATAL -->
         <root level="ERROR">
             <!-- 只要是比DEBUG级别高的就在控制台打印出来 -->
-            <appender-ref level="INFO" ref="consolePrint"/>
+            <appender-ref level="ERROR" ref="consolePrint"/>
             <!-- 只要是级别比ERROR高的，包括ERROR就输出到outErrorFile文件之中 -->
             <appender-ref level="ERROR" ref="outErrorFile"/>
         </root>

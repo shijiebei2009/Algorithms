@@ -1,6 +1,6 @@
 package cn.codepub.algorithms.trees;
 
-import cn.codepub.algorithms.commons.Tree;
+import cn.codepub.algorithms.utils.Tree;
 
 import java.util.ArrayList;
 import java.util.List;
