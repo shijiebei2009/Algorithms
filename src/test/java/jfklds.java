@@ -84,36 +84,9 @@ public class jfklds implements Cloneable {
 
     }
 
-    @Test
-    public void test() throws UnsupportedEncodingException {
-        Assert.assertEquals(10, 10);
-        Assert.assertEquals(10, 10);
-        int nums[] = new int[]{1, -2, 3, 10, -4, 7, 2, -5};
-        int max = Integer.MIN_VALUE;
-        int dp[] = new int[nums.length];
-        dp[0] = nums[0];
-        for (int i = 1; i < nums.length; i++) {
-            dp[i] = Math.max(dp[i - 1] + nums[i], nums[i]);
-            if (dp[i] > max) {
-                max = dp[i];
-            }
-        }
-        System.out.println(max);
-    }
 
-    @Test
-    public void test2() {
-        int n = 12;
-        for (int i = 0; i <= 12; i++) {
-            if (i >= 10 && i / 10 == 1) {
-                System.out.println(i);
-            } else {
-                if (i == 1) {
-                    System.out.println(i);
-                }
-            }
-        }
-    }
+
+
 
     @Test
     public void test3() {
@@ -143,13 +116,6 @@ public class jfklds implements Cloneable {
         System.out.println(list);
     }
 
-    @Test
-    public void testPinyin() {
-        String str = "你好世界";
-        PinyinHelper.convertToPinyinString(str, ",", PinyinFormat.WITH_TONE_MARK); // nǐ,hǎo,shì,jiè
-        PinyinHelper.convertToPinyinString(str, ",", PinyinFormat.WITH_TONE_NUMBER); // ni3,hao3,shi4,jie4
-        PinyinHelper.convertToPinyinString(str, ",", PinyinFormat.WITHOUT_TONE); // ni,hao,shi,jie
-        PinyinHelper.getShortPinyin(str); // nhsj
-    }
+
 
 }
