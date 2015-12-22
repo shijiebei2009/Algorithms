@@ -24,11 +24,13 @@ Problems
 * [Longest common substring 2 - 最长公共子串2](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Fcommons%2FLCS3.java)
 * [Levenshtein Distance - 编辑距离](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Fcommons%2FLevenshteinDistance.java)
 * [Majority Number - 大多数，超过一半的数](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Fcommons%2FMajorityNumber.java)
+* [Maximum product - 最大乘积](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Fcommons%2FMaximumProduct.java)
+* [TOPK algorithm - TOP算法](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Fcommons%2FTopK.java)
 
-### Binary Numbers and bits operators
+### graph
 
-* 1
-* 2
+* [Dijkstra algorithm - 迪杰斯特拉算法](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Fgraph%2FDijkstra.java)
+* [Depth First and Breadth-First by Adjacency table - 邻接表实现深度优先和广度优先](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Fgraph%2FDirectedGraphByAdjacencyList.java)
 ### Math Operations
 
 * 1
