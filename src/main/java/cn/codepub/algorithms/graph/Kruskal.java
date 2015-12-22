@@ -4,7 +4,6 @@ import cn.codepub.algorithms.graph.utils.UnionFindSet;
 import org.junit.Test;
 
 import java.util.*;
-import java.util.stream.Collectors;
 
 /**
  * <p>
@@ -89,7 +88,8 @@ public class Kruskal {
         });
 
         // 加入优先级队列
-        queue.addAll(edgeList.stream().collect(Collectors.toList()));
+        queue.addAll(edgeList);
+        // queue.addAll(edgeList.stream().collect(Collectors.toList()));
         while (!queue.isEmpty()) {
             Edge remove = queue.remove();
             Vertex start = remove.start;//获取起始点
