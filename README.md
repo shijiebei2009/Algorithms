@@ -13,7 +13,8 @@ Problems
 
 ### arrays
 
-* Clockwise print array[顺时针打印数组](cn.codepub.algorithms.arrays.PrintArray)
+* Clockwise print array[顺时针打印数组](cn/codepub/algorithms/arrays/PrintArray)
+* Clockwise print array[顺时针打印数组](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Farrays%2FPrintArray.java)
 
 ### Strings
 
