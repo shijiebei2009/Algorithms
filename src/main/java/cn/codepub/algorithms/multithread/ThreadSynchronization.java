@@ -1,4 +1,4 @@
-package cn.codepub.algorithms.ultithread;
+package cn.codepub.algorithms.multithread;
 
 import java.util.concurrent.atomic.AtomicInteger;
 

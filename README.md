@@ -15,10 +15,10 @@ Problems
 
 * [Clockwise print array - 顺时针打印数组](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Farrays%2FPrintArray.java)
 
-### Strings
+### commons
 
-* 1
-* 2
+* [Hex conversion utility - 进制转换工具](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Fcommons%2FConversionOfNumberSystems.java)
+* [Jaccard similarity coefficient - 杰卡德相似度系数](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Fcommons%2FJaccardSimilarityCoefficient.java)
 
 ### Binary Numbers and bits operators
 

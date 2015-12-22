@@ -1,4 +1,4 @@
-package cn.codepub.algorithms.chinese.spelling;
+package cn.codepub.algorithms.spelling;
 
 import com.github.stuxuhai.jpinyin.PinyinFormat;
 import com.github.stuxuhai.jpinyin.PinyinHelper;
