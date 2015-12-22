@@ -26,7 +26,7 @@ public class Kruskal {
     /**
      * 实现一个匿名类，提供了基于边的权值的比较器
      */
-    public static final Queue<Edge> QUEUE = new PriorityQueue<Edge>(new Comparator<Edge>() {
+    public static final Queue<Edge> QUEUE = new PriorityQueue<>(new Comparator<Edge>() {
         @Override
         public int compare(Edge e1, Edge e2) {
             if (e1.value == e2.value) {
