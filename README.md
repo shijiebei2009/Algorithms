@@ -73,13 +73,17 @@ Problems
 * [Longest common substring 2 - 最长公共子串2](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Fstrings%2FLCS3.java)
 * [Levenshtein Distance - 编辑距离](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Fstrings%2FLevenshteinDistance.java)
 * [Longest decreasing subsequence - 最长递减子序列](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Fstrings%2FLongestDecreasingSubSequence.java)
-* 2
+* [PatternStringMatch - 模式串查找](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Fstrings%2FPatternStringMatch.java)
+* [Permutation - 全排列](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Fstrings%2FPermutation.java)
+* [Lexicographical sorting - 字典序排序](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Fstrings%2FStringSort.java)
 
 ### trees
 
-* 1
-* 2
-
+* [Depth-first traversal of a binary tree - 二叉树的深度优先遍历](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Ftrees%2FDepthFirstTraversal.java)
+* [Get all path by given a number - 二叉树中结点值的和为输入整数的所有路径](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Ftrees%2FGetPathsBySum.java)
+* [Level binary tree traversal - 二叉树的层次遍历](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Ftrees%2FLevelTraverseBinaryTree.java)
+* [Binary tree traversal - 二叉树的遍历](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Ftrees%2FTraverseBinaryTree.java)
+* [Verify Sequence Of Binary search tree - 验证二叉搜索树序列](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Ftrees%2FVerifySequenceOfBST.java)
 
 Author
 ------------
