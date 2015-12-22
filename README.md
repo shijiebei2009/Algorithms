@@ -11,10 +11,9 @@ You can check the solution executing tests inside tests directory. Some of this 
 Problems
 --------
 
-### Trees
+### arrays
 
-* 1
-* 2
+* Clockwise print array[顺时针打印数组](cn.codepub.algorithms.arrays.PrintArray)
 
 ### Strings
 
@@ -44,12 +43,10 @@ Problems
 * 1
 * 2
 
-
-Developed By
+Author
 ------------
 
-* [Xu Wang](http://codepub.cn) -- <wangx89@126.com>
-
+* Developed By [Xu Wang](http://codepub.cn)
 
 License
 -------
@@ -58,9 +55,7 @@ Copyright 2015 Xu Wang
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-
-http://www.apache.org/licenses/LICENSE-2.0
+You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0
 
 Unless required by applicable law or agreed to in writing, software
 distributed under the License is distributed on an "AS IS" BASIS,
