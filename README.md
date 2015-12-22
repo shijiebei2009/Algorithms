@@ -18,11 +18,6 @@ Problems
 ### commons
 
 * [Hex conversion utility - 进制转换工具](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Fcommons%2FConversionOfNumberSystems.java)
-* [Jaccard similarity coefficient - 杰卡德相似度系数](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Fcommons%2FJaccardSimilarityCoefficient.java)
-* [Longest common subsequence - 最长公共子序列](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Fcommons%2FLCS.java)
-* [Longest common substring 1 - 最长公共子串1](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Fcommons%2FLCS2.java)
-* [Longest common substring 2 - 最长公共子串2](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Fcommons%2FLCS3.java)
-* [Levenshtein Distance - 编辑距离](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Fcommons%2FLevenshteinDistance.java)
 * [Majority Number - 大多数，超过一半的数](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Fcommons%2FMajorityNumber.java)
 * [Maximum product - 最大乘积](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Fcommons%2FMaximumProduct.java)
 * [TOPK algorithm - TOP算法](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Fcommons%2FTopK.java)
@@ -62,16 +57,22 @@ Problems
 ### Chinese to Spelling
 
 * [ChineseToSpelling - 中文转拼音](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Fspelling%2FChineseToSpelling.java)
-* 2
 
 ### Stack
 
-* 1
-* 2
+* [Check Stack Sequence - 检查栈的弹出序列](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Fstack%2FCheckStackSequence.java)
+* [Maintain a minimum number of stacks - 保持最小数的栈](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Fstack%2FMinStack.java)
 
 ### Strings
 
-* 1
+* [Binary Search - 二分查找](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Fstrings%2FBinarySearch.java)
+* [Combination - 组合](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Fstrings%2FCombination.java)
+* [Jaccard similarity coefficient - 杰卡德相似度系数](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Fstrings%2FJaccardSimilarityCoefficient.java)
+* [Longest common subsequence - 最长公共子序列](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Fstrings%2FLCS.java)
+* [Longest common substring 1 - 最长公共子串1](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Fstrings%2FLCS2.java)
+* [Longest common substring 2 - 最长公共子串2](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Fstrings%2FLCS3.java)
+* [Levenshtein Distance - 编辑距离](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Fstrings%2FLevenshteinDistance.java)
+* [Longest decreasing subsequence - 最长递减子序列](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Fstrings%2FLongestDecreasingSubSequence.java)
 * 2
 
 ### trees

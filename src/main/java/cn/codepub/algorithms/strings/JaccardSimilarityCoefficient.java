@@ -1,4 +1,4 @@
-package cn.codepub.algorithms.commons;
+package cn.codepub.algorithms.strings;
 
 import com.google.common.base.Preconditions;
 import com.google.common.collect.Sets;

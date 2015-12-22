@@ -11,10 +11,10 @@ import java.util.List;
  * 4.否则的话，要取0<=j<=i之间最大那个dp[j]，且该dp[j]满足nums[j]>nums[i]，这种情况说明中间跳过了几个元素
  * 5.对于满足条件的dp[j]将dp[j]+1赋值给dp[i]
  */
-public class LongestSubSequence {
+public class LongestDecreasingSubSequence {
     public static void main(String[] args) {
         int[] nums = new int[]{1, 2, 3, 19, 12, 5, 4, 2, 3, 7, 9, 10, 6, 8, 3, 4, 3, 2, 1};
-        LongestSubSequence longestSubSequence = new LongestSubSequence();
+        LongestDecreasingSubSequence longestSubSequence = new LongestDecreasingSubSequence();
         List<Integer> longestDecreaseSubSequence = longestSubSequence.getLongestDecreaseSubSequence(nums);
         System.out.println(longestDecreaseSubSequence);
         List<Integer> longestIncreaseSubSequence = longestSubSequence.getLongestIncreaseSubSequence(nums);
