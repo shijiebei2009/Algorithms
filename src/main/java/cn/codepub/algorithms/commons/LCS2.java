@@ -1,4 +1,5 @@
 package cn.codepub.algorithms.commons;
+
 import org.apache.commons.lang3.StringUtils;
 import org.junit.Test;
 
@@ -9,7 +10,7 @@ import org.junit.Test;
  * <p>
  * ClassName:LCS2
  * </p>
- * <p/>
+ * <p>
  * Description:最长公共子串算法
  * </P>
  *

@@ -1,4 +1,5 @@
 package cn.codepub.algorithms.commons;
+
 import org.apache.commons.lang3.StringUtils;
 import org.junit.Test;
 
@@ -9,7 +10,7 @@ import org.junit.Test;
  * <p>
  * ClassName:LCS3
  * </p>
- * <p/>
+ * <p>
  * Description:使用动态规划解决最长公共子串
  * </P>
  *
@@ -54,6 +55,7 @@ public class LCS3 {
         }
         return inputX.substring(maxIndex, maxIndex + maxLen);
     }
+
     @Test
     public void test() {
         String s1 = "我是美abc国中defg国中间人";
