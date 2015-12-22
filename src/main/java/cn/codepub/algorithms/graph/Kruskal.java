@@ -22,6 +22,21 @@ import java.util.*;
  * @since V1.0.0
  */
 public class Kruskal {
+    /**
+     * 实现一个匿名类，提供了基于边的权值的比较器
+     */
+    public static final Queue<Edge> QUEUE = new PriorityQueue<Edge>(new Comparator() {
+        @Override
+        public int compare(Object o1, Object o2) {
+            Edge e1 = (Edge) o1;
+            Edge e2 = (Edge) o2;
+            if (e1.value == e2.value) {
+                return 0;
+            } else {
+                return e1.value > e2.value ? 1 : -1;
+            }
+        }
+    });
     private static List<Vertex> vertexList = new ArrayList<>();//顶点集
     private static List<Edge> visitedEdges = new ArrayList<>();//已访问的边集
     private static List<Edge> edgeList = new ArrayList<>();//边集
@@ -71,27 +86,11 @@ public class Kruskal {
 
     public static void minimumSpanningTree() {
         UnionFindSet unionFindSet = new UnionFindSet(vertexList.size());
-        /**
-         * 实现一个匿名类，提供了基于边的权值的比较器
-         */
-        Queue<Edge> queue = new PriorityQueue<>(new Comparator() {
-            @Override
-            public int compare(Object o1, Object o2) {
-                Edge e1 = (Edge) o1;
-                Edge e2 = (Edge) o2;
-                if (e1.value == e2.value) {
-                    return 0;
-                } else {
-                    return e1.value > e2.value ? 1 : -1;
-                }
-            }
-        });
-
         // 加入优先级队列
-        queue.addAll(edgeList);
+        QUEUE.addAll(edgeList);
         // queue.addAll(edgeList.stream().collect(Collectors.toList()));
-        while (!queue.isEmpty()) {
-            Edge remove = queue.remove();
+        while (!QUEUE.isEmpty()) {
+            Edge remove = QUEUE.remove();
             Vertex start = remove.start;//获取起始点
             Vertex end = remove.end;//获取终结点
             int startNo = getVertexNo(vertexList, start.name);//得到起点编号
