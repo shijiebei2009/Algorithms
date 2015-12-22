@@ -85,6 +85,14 @@ Problems
 * [Binary tree traversal - 二叉树的遍历](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Ftrees%2FTraverseBinaryTree.java)
 * [Verify Sequence Of Binary search tree - 验证二叉搜索树序列](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Ftrees%2FVerifySequenceOfBST.java)
 
+### Design Patterns
+
+* [Deep Clone - 深拷贝](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Fpatterns%2Fcore%2FDeepClone.java)
+* [Singleton - 单例](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Fpatterns%2Fcore%2FSingleton.java)
+* [Static Proxy - 静态代理](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Fpatterns%2Fcore%2FStaticProxyHandler.java)
+* [JDK Dynamic Proxy - JDK实现动态代理](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Fpatterns%2Fcore%2FJDKProxyHandler.java)
+* [CGLib Dynamic Proxy - CGLib实现动态代理](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Fpatterns%2Fcore%2FCGLibProxyHandler.java)
+
 Author
 ------------
 

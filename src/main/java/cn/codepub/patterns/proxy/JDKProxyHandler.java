@@ -23,14 +23,14 @@ import java.lang.reflect.Proxy;
  * @version V1.0.0
  * @since V1.0.0
  */
-public class ProxyHandler implements InvocationHandler {
+public class JDKProxyHandler implements InvocationHandler {
     private Object tar;
 
-    public ProxyHandler() {
+    public JDKProxyHandler() {
 
     }
 
-    public ProxyHandler(Object tar) {
+    public JDKProxyHandler(Object tar) {
         this.tar = tar;
     }
 
@@ -51,7 +51,7 @@ public class ProxyHandler implements InvocationHandler {
 
     public static void testDynamicProxy() {
         System.out.println("-----------使用JDK动态代理-----------");
-        Count count = (Count) new ProxyHandler().bind(new CountImpl());
+        Count count = (Count) new JDKProxyHandler().bind(new CountImpl());
         count.queryCount();
         count.updateCount();
     }
