@@ -89,9 +89,9 @@ Problems
 
 * [Deep Clone - 深拷贝](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Fpatterns%2Fcore%2FDeepClone.java)
 * [Singleton - 单例](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Fpatterns%2Fcore%2FSingleton.java)
-* [Static Proxy - 静态代理](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Fpatterns%2Fcore%2FStaticProxyHandler.java)
-* [JDK Dynamic Proxy - JDK实现动态代理](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Fpatterns%2Fcore%2FJDKProxyHandler.java)
-* [CGLib Dynamic Proxy - CGLib实现动态代理](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Fpatterns%2Fcore%2FCGLibProxyHandler.java)
+* [Static Proxy - 静态代理](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Fpatterns%2Fproxy%2FStaticProxyHandler.java)
+* [JDK Dynamic Proxy - JDK实现动态代理](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Fpatterns%2Fproxy%2FJDKProxyHandler.java)
+* [CGLib Dynamic Proxy - CGLib实现动态代理](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Fpatterns%2Fproxy%2FCGLibProxyHandler.java)
 
 Author
 ------------
