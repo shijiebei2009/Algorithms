@@ -22,14 +22,13 @@ import java.util.*;
  * @since V1.0.0
  */
 public class Kruskal {
+    private static List<Vertex> vertexList = new ArrayList<>();//顶点集
     /**
      * 实现一个匿名类，提供了基于边的权值的比较器
      */
-    public static final Queue<Edge> QUEUE = new PriorityQueue<Edge>(new Comparator() {
+    public static final Queue<Edge> QUEUE = new PriorityQueue<Edge>(new Comparator<Edge>() {
         @Override
-        public int compare(Object o1, Object o2) {
-            Edge e1 = (Edge) o1;
-            Edge e2 = (Edge) o2;
+        public int compare(Edge e1, Edge e2) {
             if (e1.value == e2.value) {
                 return 0;
             } else {
@@ -37,10 +36,8 @@ public class Kruskal {
             }
         }
     });
-    private static List<Vertex> vertexList = new ArrayList<>();//顶点集
     private static List<Edge> visitedEdges = new ArrayList<>();//已访问的边集
     private static List<Edge> edgeList = new ArrayList<>();//边集
-
 
     private static class Vertex {
         char name;//顶点名称
