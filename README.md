@@ -52,16 +52,16 @@ Problems
 ### similarity
 
 * [Words similarity by Tongyici CiLin - 基于同义词词林的词语相似度](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Fsimilarity%2Fcilin%2FWordSimilarity.java)
-* 2
 
 ### Sorting Algorithms
 
-* 1
-* 2
+* [Insert sorting - 插入排序](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Fsorting%2FInsertSort.java)
+* [Quick sorting - 快速排序](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Fsorting%2FQuickSort.java)
+* [Shell sorting - 希尔排序](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Fsorting%2FShellSort.java)
 
 ### Chinese to Spelling
 
-* 1
+* [ChineseToSpelling - 中文转拼音](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Fspelling%2FChineseToSpelling.java)
 * 2
 
 ### Stack
