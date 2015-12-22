@@ -43,17 +43,15 @@ Problems
 
 ### matrix
 
-* 1
-* 2
+* [Matrix multiplication - 方阵乘法](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Fmatrix%2FMatrix.java)
 
 ### multithread
 
-* 1
-* 2
+* [Thread synchronization - 线程同步](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Fmultithread%2FThreadSynchronization.java)
 
 ### similarity
 
-* 1
+* [Words similarity by Tongyici CiLin - 基于同义词词林的词语相似度](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Fsimilarity%2Fcilin%2FWordSimilarity.java)
 * 2
 
 ### Sorting Algorithms
