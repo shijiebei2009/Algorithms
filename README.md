@@ -30,17 +30,28 @@ Problems
 ### graph
 
 * [Dijkstra algorithm - 迪杰斯特拉算法](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Fgraph%2FDijkstra.java)
-* [Depth First and Breadth-First by Adjacency table - 邻接表实现深度优先和广度优先](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Fgraph%2FDirectedGraphByAdjacencyList.java)
-### Math Operations
+* [Directed graph Depth First and Breadth-First by Adjacency table - 邻接表实现有向图深度优先和广度优先]
+(src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Fgraph%2FDirectedGraphByAdjacencyList.java)
+* [Directed graph Depth First and Breadth-First by Adjacency Matrix - 邻接矩阵实现有向图深度优先和广度优先]
+(src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Fgraph%2FDirectedGraphByAdjacencyMatrix.java)
+* [Floyd Warshall - 弗洛伊德算法](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Fgraph%2FFloydWarshall.java)
+* [Kruskal - 克鲁斯卡尔算法](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Fgraph%2FKruskal.java)
+* [Prim - 普里姆算法](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Fgraph%2FPrim.java)
+* [Undirected graph Depth First and Breadth-First by Adjacency table - 邻接表实现无向图深度优先和广度优先](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Fgraph%2FUndirectedGraphByAdjacencyList.java)
+* [Undirected graph Depth First and Breadth-First by Adjacency Matrix - 邻接矩阵实现无向图深度优先和广度优先]
+(src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Fgraph%2FUndirectedGraphByAdjacencyMatrix.java)
+
+### matrix
 
 * 1
 * 2
 
-### Sequences
+### multithread
 
 * 1
 * 2
-### Arrays
+
+### similarity
 
 * 1
 * 2
@@ -49,6 +60,27 @@ Problems
 
 * 1
 * 2
+
+### Chinese to Spelling
+
+* 1
+* 2
+
+### Stack
+
+* 1
+* 2
+
+### Strings
+
+* 1
+* 2
+
+### trees
+
+* 1
+* 2
+
 
 Author
 ------------
