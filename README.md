@@ -73,7 +73,7 @@ Problems
 * [Longest common substring 2 - 最长公共子串2](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Fstrings%2FLCS3.java)
 * [Levenshtein Distance - 编辑距离](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Fstrings%2FLevenshteinDistance.java)
 * [Longest decreasing subsequence - 最长递减子序列](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Fstrings%2FLongestDecreasingSubSequence.java)
-* [PatternStringMatch - 模式串查找](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Fstrings%2FPatternStringMatch.java)
+* [Pattern String Match - 模式串查找](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Fstrings%2FPatternStringMatch.java)
 * [Permutation - 全排列](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Fstrings%2FPermutation.java)
 * [Lexicographical sorting - 字典序排序](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Fstrings%2FStringSort.java)
 
