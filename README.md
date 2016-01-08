@@ -77,7 +77,8 @@ Problems
 * [Longest decreasing subsequence - 最长递减子序列](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Fstrings%2FLongestDecreasingSubSequence.java)
 * [Pattern string match - 模式串查找](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Fstrings%2FPatternStringMatch.java)
 * [Permutation - 全排列](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Fstrings%2FPermutation.java)
-* [Lexicographical sorting - 字典序排序](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Fstrings%2FStringSort.java)
+* [Lexicographical
+ - 字典序排序](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Fstrings%2FStringSort.java)
 
 ### Trees
 
