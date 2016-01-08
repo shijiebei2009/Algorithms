@@ -62,6 +62,7 @@ Problems
 ### Stack
 
 * [Check stack sequence - 检查栈的弹出序列](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Fstack%2FCheckStackSequence.java)
+* [Infix expression turn to postfix expression - 中缀表达式转后缀表达式](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Fstack%2FInfixApp.java)
 * [Maintain a minimum number of stacks - 保持最小数的栈](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Fstack%2FMinStack.java)
 * [Postfix expression evaluation - 后缀表达式求值](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Fstack%2FPostfixApp.java)
 
@@ -77,8 +78,8 @@ Problems
 * [Longest decreasing subsequence - 最长递减子序列](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Fstrings%2FLongestDecreasingSubSequence.java)
 * [Pattern string match - 模式串查找](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Fstrings%2FPatternStringMatch.java)
 * [Permutation - 全排列](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Fstrings%2FPermutation.java)
-* [Lexicographical
- - 字典序排序](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Fstrings%2FStringSort.java)
+* [Reverse string - 反转字符串](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Fstrings%2FReverseString.java)
+* [Lexicographical - 字典序排序](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Fstrings%2FStringSort.java)
 
 ### Trees
 
