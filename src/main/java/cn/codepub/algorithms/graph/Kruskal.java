@@ -3,7 +3,10 @@ package cn.codepub.algorithms.graph;
 import cn.codepub.algorithms.graph.utils.UnionFindSet;
 import org.junit.Test;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.List;
+import java.util.PriorityQueue;
 
 /**
  * <p>
@@ -26,7 +29,7 @@ public class Kruskal {
     /**
      * 实现一个匿名类，提供了基于边的权值的比较器
      */
-    public static final Queue<Edge> QUEUE = new PriorityQueue<>(new Comparator<Edge>() {
+    public static final PriorityQueue<Edge> QUEUE = new PriorityQueue<Edge>(new Comparator<Edge>() {
         @Override
         public int compare(Edge e1, Edge e2) {
             if (e1.value == e2.value) {
