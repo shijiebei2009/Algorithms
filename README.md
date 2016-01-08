@@ -45,6 +45,10 @@ Problems
 
 * [Thread synchronization - 线程同步](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Fmultithread%2FThreadSynchronization.java)
 
+### Queue
+
+* [Simple priority queue - 简单的优先级队列](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Fqueue%2FPriorityApp.java)
+
 ### Similarity
 
 * [Words similarity by Tongyici CiLin - 基于同义词词林的词语相似度](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Fsimilarity%2Fcilin%2FWordSimilarity.java)
