@@ -67,6 +67,7 @@ Problems
 
 ### Stack
 
+* [Analyzing brackets match - 判断括号是否匹配](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Fstack%2FBracketsApp.java)
 * [Check stack sequence - 检查栈的弹出序列](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Fstack%2FCheckStackSequence.java)
 * [Infix expression turn to postfix expression - 中缀表达式转后缀表达式](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Fstack%2FInfixApp.java)
 * [Maintain a minimum number of stacks - 保持最小数的栈](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Fstack%2FMinStack.java)
