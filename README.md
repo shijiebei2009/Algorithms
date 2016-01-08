@@ -51,8 +51,10 @@ Problems
 
 ### Sorting Algorithms
 
+* [Bubble sorting - 冒泡排序](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Fsorting%2FBubbleSort.java)
 * [Insert sorting - 插入排序](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Fsorting%2FInsertSort.java)
 * [Quick sorting - 快速排序](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Fsorting%2FQuickSort.java)
+* [SelectionSort sorting - 选择排序](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Fsorting%2FSelectionSort.java)
 * [Shell sorting - 希尔排序](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Fsorting%2FShellSort.java)
 
 ### Chinese to Spelling
