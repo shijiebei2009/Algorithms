@@ -63,6 +63,7 @@ Problems
 
 * [Check stack sequence - 检查栈的弹出序列](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Fstack%2FCheckStackSequence.java)
 * [Maintain a minimum number of stacks - 保持最小数的栈](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Fstack%2FMinStack.java)
+* [Postfix expression evaluation - 后缀表达式求值](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Fstack%2FPostfixApp.java)
 
 ### Strings
 

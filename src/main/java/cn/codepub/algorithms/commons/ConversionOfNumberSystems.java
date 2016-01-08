@@ -1,5 +1,6 @@
 package cn.codepub.algorithms.commons;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 /**
@@ -19,6 +20,8 @@ import org.junit.Test;
  */
 public class ConversionOfNumberSystems {
     /**
+     * 第一种方法
+     *
      * @param number 需要进行进制转换的数字
      * @param base   需要转为几进制
      * @return
@@ -52,8 +55,27 @@ public class ConversionOfNumberSystems {
         return sb.reverse().toString();
     }
 
+    /**
+     * 第二种方法
+     *
+     * @param num  需要转换进制的数字
+     * @param base 需要转成几进制
+     * @return 转换结果
+     */
+    public static String baseString(int num, int base) {
+        String str, digit = "0123456789abcdef";
+        if (num == 0) {
+            return "";
+        } else {
+            str = baseString(num / base, base);
+            return str + digit.charAt(num % base);
+        }
+    }
+
     @Test
     public void test() {
         System.out.println(conversion(1024, 16));
+        System.out.println(baseString(1024, 16));
+        Assert.assertEquals(conversion(1024, 16), baseString(1024, 16));
     }
 }
