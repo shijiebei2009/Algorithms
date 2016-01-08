@@ -14,6 +14,7 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>2.5.1</version>
                 <configuration>
+                    <compilerVersion>1.7</compilerVersion>
                     <source>1.7</source>
                     <target>1.7</target>
                 </configuration>
@@ -40,11 +41,6 @@
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
             <version>3.4</version>
-        </dependency>
-        <dependency>
-            <groupId>org.hibernate</groupId>
-            <artifactId>hibernate-core</artifactId>
-            <version>5.0.2.Final</version>
         </dependency>
         <dependency>
             <groupId>com.github.stuxuhai</groupId>
