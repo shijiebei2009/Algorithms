@@ -7,6 +7,15 @@
     <groupId>cn.codepub</groupId>
     <artifactId>algorithms</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <properties>
+        <version.commons.io>2.4</version.commons.io>
+        <version.junit>4.12</version.junit>
+        <version.commons.lang3>3.4</version.commons.lang3>
+        <version.log4j>2.6</version.log4j>
+        <version.jdk>1.8</version.jdk>
+        <version.lombok>1.16.12</version.lombok>
+        <version.guava>20.0</version.guava>
+    </properties>
     <build>
         <plugins>
             <plugin>
@@ -14,9 +23,9 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>2.5.1</version>
                 <configuration>
-                    <compilerVersion>1.8</compilerVersion>
-                    <source>1.8</source>
-                    <target>1.8</target>
+                    <compilerVersion>${version.jdk}</compilerVersion>
+                    <source>${version.jdk}</source>
+                    <target>${version.jdk}</target>
                 </configuration>
             </plugin>
         </plugins>
@@ -25,12 +34,12 @@
         <dependency>
             <groupId>commons-io</groupId>
             <artifactId>commons-io</artifactId>
-            <version>2.4</version>
+            <version>${version.commons.io}</version>
         </dependency>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>4.12</version>
+            <version>${version.junit}</version>
         </dependency>
         <dependency>
             <groupId>cglib</groupId>
@@ -40,7 +49,7 @@
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
-            <version>3.4</version>
+            <version>${version.commons.lang3}</version>
         </dependency>
         <dependency>
             <groupId>com.github.stuxuhai</groupId>
@@ -50,17 +59,22 @@
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>
             <artifactId>log4j-core</artifactId>
-            <version>2.4</version>
+            <version>${version.log4j}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-api</artifactId>
+            <version>${version.log4j}</version>
         </dependency>
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
-            <version>1.16.6</version>
+            <version>${version.lombok}</version>
         </dependency>
         <dependency>
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
-            <version>19.0-rc2</version>
+            <version>${version.guava}</version>
         </dependency>
     </dependencies>
 </project>

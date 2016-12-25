@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<configuration status="OFF">
-    <appenders>
-        <RollingFile name="outErrorFile" fileName="exceptionLogs/algo.log"
-                     filePattern="exceptionLogs/$${date:yyyy-MM}/mergerException-%d{yyyy-MM-dd}_%i.log.gz">
+<Configuration status="OFF">
+    <Appenders>
+        <RollingFile name="outErrorFile" fileName="logs/algorithms.log"
+                     filePattern="logs/$${date:yyyy-MM}/merge_logs-%d{yyyy-MM-dd}_%i.log.gz">
             <PatternLayout pattern="%d{yyyy.MM.dd HH:mm:ss z} %-5level %class{36} %L %M - %msg%xEx%n"/>
             <SizeBasedTriggeringPolicy size="30MB"/>
         </RollingFile>
@@ -11,16 +11,15 @@
         <Console name="consolePrint" target="SYSTEM_OUT">
             <PatternLayout pattern="%d{yyyy.MM.dd HH:mm:ss z} %-5level %class{36} %L %M - %msg%xEx%n"/>
         </Console>
-    </appenders>
-    <loggers>
+    </Appenders>
+    <Loggers>
         <!-- <logger name="com.ysq.test.MyTest.java" level="debug" additivity="false"> <appender-ref ref="consolePrint" /> </logger> -->
-
         <!-- 级别顺序（低到高）：DEBUG < INFO < WARN < ERROR < FATAL -->
-        <root level="ERROR">
+        <Root level="ERROR">
             <!-- 只要是比DEBUG级别高的就在控制台打印出来 -->
-            <appender-ref level="ERROR" ref="consolePrint"/>
+            <Appender-ref level="ERROR" ref="consolePrint"/>
             <!-- 只要是级别比ERROR高的，包括ERROR就输出到outErrorFile文件之中 -->
-            <appender-ref level="ERROR" ref="outErrorFile"/>
-        </root>
-    </loggers>
-</configuration>
+            <Appender-ref level="ERROR" ref="outErrorFile"/>
+        </Root>
+    </Loggers>
+</Configuration>
