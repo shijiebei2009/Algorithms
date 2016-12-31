@@ -1,5 +1,4 @@
-Algorithms [![Build Status](https://api.travis-ci.org/shijiebei2009/Algorithms.svg?branch=master)](https://travis-ci.org/shijiebei2009/Algorithms)
-[![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)
+Algorithms [![Build Status](https://api.travis-ci.org/shijiebei2009/Algorithms.svg?branch=master)](https://travis-ci.org/shijiebei2009/Algorithms)  [![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)
 
 ==========
 Algorithms playground for common questions solved in Java syntax.
@@ -89,6 +88,7 @@ Problems
 * [Permutation - 全排列](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Fstrings%2FPermutation.java)
 * [Reverse string - 反转字符串](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Fstrings%2FReverseString.java)
 * [Lexicographical - 字典序排序](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Fstrings%2FStringSort.java)
+* [Manacher algorithms - 最长回文字符串](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Fstrings%2FManacher.java)
 
 ### Trees
 
