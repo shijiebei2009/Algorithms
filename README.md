@@ -54,7 +54,7 @@ Problems
 ### Sorting Algorithm
 
 * [Bubble sort - 冒泡排序](src/main/java/cn/codepub/algorithms/sorting/BubbleSort.java)
-* [Insert sort - 插入排序](src/main/java/cn/codepub/algorithms/sorting/InsertSort.java)
+* [Insertion sort - 插入排序](src/main/java/cn/codepub/algorithms/sorting/InsertSort.java)
 * [Quick sort - 快速排序](src/main/java/cn/codepub/algorithms/sorting/QuickSort.java)
 * [Selection sort - 选择排序](src/main/java/cn/codepub/algorithms/sorting/SelectionSort.java)
 * [Shell sort - 希尔排序](src/main/java/cn/codepub/algorithms/sorting/ShellSort.java)
