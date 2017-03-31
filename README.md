@@ -15,7 +15,7 @@ Problems
 
 ### Arrays
 
-* [Clockwise print array - 顺时针打印数组](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Farrays%2FPrintArray.java)
+* [Clockwise print array - 顺时针打印数组](src/main/java/cn/codepub/algorithms/arrays/PrintArray.java)
 
 ### Commons
 
