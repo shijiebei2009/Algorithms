@@ -1,6 +1,7 @@
 Algorithms [![Build Status](https://api.travis-ci.org/shijiebei2009/Algorithms.svg?branch=master)](https://travis-ci.org/shijiebei2009/Algorithms)  [![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)
 
 ==========
+
 Algorithms playground for common questions solved in Java syntax.
 
 This repository contains my solution for some common algorithms. I've created this repository to learn about algorithms and improve solving different common computer science problems. I'll try to add more solutions if I have time :)
@@ -10,6 +11,7 @@ Each solved problem has a program written in Java. Every solution is tested and 
 You can check the solution executing tests inside tests directory. Some of this problems have been resolved using TDD.
 
 Problems
+
 --------
 
 ### Arrays
@@ -26,17 +28,13 @@ Problems
 ### Graph
 
 * [Dijkstra algorithm - 迪杰斯特拉算法](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Fgraph%2FDijkstra.java)
-* [Directed graph depth first and breadth-first by adjacency table - 邻接表实现有向图深度优先和广度优先]
-(src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Fgraph%2FDirectedGraphByAdjacencyList.java)
-* [Directed graph depth first and breadth-first by adjacency matrix - 邻接矩阵实现有向图深度优先和广度优先]
-(src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Fgraph%2FDirectedGraphByAdjacencyMatrix.java)
+* [Directed graph depth first and breadth-first by adjacency table - 邻接表实现有向图深度优先和广度优先](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Fgraph%2FDirectedGraphByAdjacencyList.java)
+* [Directed graph depth first and breadth-first by adjacency matrix - 邻接矩阵实现有向图深度优先和广度优先](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Fgraph%2FDirectedGraphByAdjacencyMatrix.java)
 * [Floyd warshall - 弗洛伊德算法](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Fgraph%2FFloydWarshall.java)
 * [Kruskal - 克鲁斯卡尔算法](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Fgraph%2FKruskal.java)
 * [Prim - 普里姆算法](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Fgraph%2FPrim.java)
-* [Undirected graph depth first and breadth-first by adjacency table - 邻接表实现无向图深度优先和广度优先]
-(src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Fgraph%2FUndirectedGraphByAdjacencyList.java)
-* [Undirected graph depth first and breadth-first by adjacency matrix - 邻接矩阵实现无向图深度优先和广度优先]
-(src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Fgraph%2FUndirectedGraphByAdjacencyMatrix.java)
+* [Undirected graph depth first and breadth-first by adjacency table - 邻接表实现无向图深度优先和广度优先](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Fgraph%2FUndirectedGraphByAdjacencyList.java)
+* [Undirected graph depth first and breadth-first by adjacency matrix - 邻接矩阵实现无向图深度优先和广度优先](src%2Fmain%2Fjava%2Fcn%2Fcodepub%2Falgorithms%2Fgraph%2FUndirectedGraphByAdjacencyMatrix.java)
 
 ### Matrix
 
