@@ -31,7 +31,7 @@ public class BinarySearch {
         if (start > end) {
             return -1;
         }
-        int mid = (start + end) >> 1;
+        int mid = start + (end) - start >> 1;
         if (nums[mid] == key) {
             return mid;
         } else if (nums[mid] > key) {
@@ -56,7 +56,9 @@ public class BinarySearch {
         int start = 0;
         int end = nums.length - 1;
         while (start <= end) {
-            int mid = (start + end) >> 1;
+            //防止(start+end)>>1溢出
+            //JDK中的Arrays.binarySearch使用(low + high) >>> 1;
+            int mid = start + (end - start) >> 1;
             if (nums[mid] == key) {
                 return mid;
             } else if (nums[mid] > key) {
@@ -72,8 +74,8 @@ public class BinarySearch {
         int[] nums = new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9, 11};
         int i = recursionBinarySearch(nums, 0, nums.length - 1, 11);
         System.out.println(i);
-        int i1 = nonRecursionBinarySearch(nums, 1);
-        System.out.println(i1);
+        i = nonRecursionBinarySearch(nums, 1);
+        System.out.println(i);
     }
 
 }
