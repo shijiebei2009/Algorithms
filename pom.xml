@@ -8,7 +8,7 @@
     <artifactId>algorithms</artifactId>
     <version>1.0-SNAPSHOT</version>
     <properties>
-        <version.commons.io>2.4</version.commons.io>
+        <version.commons.io>2.7</version.commons.io>
         <version.junit>4.12</version.junit>
         <version.commons.lang3>3.4</version.commons.lang3>
         <version.log4j>2.6</version.log4j>
