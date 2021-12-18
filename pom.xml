@@ -11,7 +11,7 @@
         <version.commons.io>2.7</version.commons.io>
         <version.junit>4.13.1</version.junit>
         <version.commons.lang3>3.4</version.commons.lang3>
-        <version.log4j>2.16.0</version.log4j>
+        <version.log4j>2.17.0</version.log4j>
         <version.jdk>1.8</version.jdk>
         <version.lombok>1.16.12</version.lombok>
         <version.guava>20.0</version.guava>
